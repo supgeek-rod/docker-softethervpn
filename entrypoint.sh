@@ -62,6 +62,7 @@ if [ ! -f /usr/vpnserver/vpn_server.config ]; then
 
 	# set password for server
 	SPW=$(cat /dev/urandom | tr -dc 'A-Za-z0-9' | fold -w 20 | head -n 1)
+	echo "SPW      : ${SPW}"
 	/usr/bin/vpncmd localhost /SERVER /CSV /CMD ServerPasswordSet ${SPW}
 
 	/usr/bin/vpnserver stop 2>&1 > /dev/null
