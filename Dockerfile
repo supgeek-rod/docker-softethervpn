@@ -24,7 +24,7 @@ RUN set -x && \
 	apk del --build_package tar gcc git curl expat libssh2 pcre libc-dev readline-dev zlib-dev openssl-dev ncurses-dev make wget && \
 	rm -rf /var/cache/apk/* ${TEMP_DIR}
 
-COPY entrypoint.sh /
+COPY entrypoint.sh /entrypoint.sh
 EXPOSE 1194/tcp 1194/udp 443/tcp 4500/udp 500/udp 5555/tcp 992/tcp
 
 ENTRYPOINT ["/entrypoint.sh"]
