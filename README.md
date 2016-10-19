@@ -1,5 +1,5 @@
 # SoftEtherVPN Docker
-[![](https://images.microbadger.com/badges/version/benyoo/softethervpn.svg)](https://microbadger.com/images/benyoo/softethervpn "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/benyoo/softethervpn.svg)](https://microbadger.com/images/benyoo/softethervpn "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/benyoo/softethervpn.svg)](https://microbadger.com/images/benyoo/softethervpn "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/benyoo/softethervpn.svg)](https://microbadger.com/images/benyoo/softethervpn "Get your own image badge on microbadger.com") [![Docker Pulls](https://img.shields.io/docker/pulls/benyoo/softethervpn.svg?maxAge=2592000)](https://hub.docker.com/r/benyoo/softethervpn/) [![Docker Automated buil](https://img.shields.io/docker/automated/benyoo/softethervpn.svg?maxAge=2592000)](https://hub.docker.com/r/benyoo/softethervpn/)
 ## 运行
 ##### 使用随机帐号密码的方法
 
